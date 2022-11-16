@@ -16,7 +16,7 @@ def is_simple(a):
     for i in range(len(s)):
         if a%s[i]==0:
             t=t+1
-    if t==0:
+    if t==0 or a==2:
         return True
     else:
         return False
