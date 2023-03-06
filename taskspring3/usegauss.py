@@ -1,3 +1,5 @@
+import numpy
+from numpy import array
 import gauss
 from gauss import *
 
