@@ -2,7 +2,6 @@ from PyQt6.QtWidgets import (
 QApplication, QMainWindow, QVBoxLayout, QLineEdit, 
 QPushButton, QWidget, QGridLayout, QWidget
 )
-from PyQt6.QtCore import QSize, Qt
 from functools import partial
 import sys
 
