@@ -108,7 +108,6 @@ class calculation:
         self._view.buttonmap["clear"].clicked.connect(self._view.cleardisplay)
 
 
-
 def main():
     app = QApplication([])
     window = Window()
