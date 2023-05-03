@@ -51,7 +51,6 @@ class Window(QMainWindow):
         self.display2.setPlaceholderText("gcd")
         self.generallayout.addWidget(self.display2)        
     
- 
     def setdisplaytext1(self, text):
         self.display1.setText(text)
         self.display1.setFocus()
