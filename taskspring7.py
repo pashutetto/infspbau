@@ -84,6 +84,7 @@ def findgcd(stroka):
     result = str(funct(int(n[0]), int(n[1])))
     return result
 
+
 class calculation:
     def __init__(self, gcd, view):
         self._gcd=gcd
