@@ -9,7 +9,7 @@ import sys
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("gcd calculating")
+        self.setWindowTitle("gcd calculator")
         self.generallayout = QVBoxLayout()
         centralwidget = QWidget(self)
         centralwidget.setLayout(self.generallayout)
