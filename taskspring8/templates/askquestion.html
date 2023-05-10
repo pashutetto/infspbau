@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Вопрос : {{question}}</p>
+<p>Предупреждение: сайт может отвечать на только на вопросы, подразумевающие положительный или отрицательный ответ</p>
+
+<form action="/askquestion" method="POST">
+    <input type="text" value="{{question}}" name = "question" />
+    <input type="submit" value="Подтвердить вопрос">
+</form>
+
+Ответ: {% for msg in get_flashed_messages() %}
+<div class = "flash">{{msg}}</div>
+{% endfor %}
+{% endblock %}
