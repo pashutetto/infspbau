@@ -5,7 +5,6 @@ from flask import Flask, render_template, request, flash
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'dfhsdfkhgbh'
 
-
 answers = ["да", "нет", "может быть", "никогда", "возможно", "не знаю"]
 
 @app.context_processor
@@ -22,6 +21,7 @@ def inject_globals():
             "Karma police - Radiohead"
         ]
     }
+
 @app.route("/")
 def index():
     return flask.render_template(
